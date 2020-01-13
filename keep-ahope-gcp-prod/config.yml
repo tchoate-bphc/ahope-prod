@@ -1,0 +1,92 @@
+# The overall Google Cloud Project ID.  This property is mandatory
+# In case the GCP project name is different from the ID, make sure ID is used here.
+PROJECT_ID: brs-ahope-dev
+
+# --------------------------------------------------------------------------------------
+# It is assumed that the CloudSQL instance we use to store data is in the same project
+# and therefore no need to create a service account to access across project.
+# --------------------------------------------------------------------------------------
+
+# CLOUDSQL_REGION identifies the geographical region of the CloudSQL instance.
+# This is selected at the time of instance creation.
+CLOUDSQL_REGION: us-east1
+
+# CLOUDSQL_INSTANCE_ID identifies an instance of Google Cloud SQL, which should be viewable at
+# https://console.cloud.google.com/sql/instances.  The left-most column is the instance id.
+CLOUDSQL_INSTANCE_ID: brs-ahope-inst-dev
+
+# CLOUDSQL_CONNECTION_NAME:
+# An instance's connection name can be viewed in the Overview tab of the "Instance details" page.
+# It is concatenation of $PROJECT_ID:$CLOUDSQL_REGION:$CLOUDSQL_INSTANCE_ID, separated by colons.
+# If this property is not defined in this yml file, then it will be formed by concatenating the
+# three properties defined above.
+# If this property is defined, then no need to define CLOUDSQL_INSTANCE_ID, and CLOUDSQL_REGION.
+# CLOUDSQL_CONNECTION_NAME: keep-ahope:us-east1:ahope-postgres-dev
+
+# DATABASE_CREDENTIALS is the CloudSQL database user and the password, separated by a colon.
+# This property is mandatory unless DATABASE_URI is defined (which includes it)
+DATABASE_CREDENTIALS: postgres:8PHC@dm1n!
+
+# DATABASE_NAME is the name of the database inside a CloudSQL instance.  A CloudSQL instance is just an instance
+# of PostgreSQL server, which is capable of hosting multiple databases inside it, and hence a database name
+# is needed to identify the database to use.
+# This property is mandatory unless DATABASE_URI is defined (which includes it)
+DATABASE_NAME: ahopedb-dev
+
+# DATABASE_URI, when undefined here, is formed as 
+#   postgres://$DATABASE_CREDENTIALS@/cloudsql/$CLOUDSQL_CONNECTION_NAME/$DATABASE_NAME
+# DATABASE_URI: postgres://postgres:ahopepostgres@/cloudsql/keep-ahope:us-east1:ahope-postgres-dev/ahope
+
+# DATABASE_OPTIONS, leave it undefined for Cloud environment.
+#DATABASE_OPTIONS:
+#  protocol: "socket:"
+#  host: /cloudsql/keep-ahope:us-east1:ahope-postgres-dev:ahope
+#  database: ahope
+
+# DATABASE_CONNECTION_POOL_SIZE defines the connection pool size used by Parse Server, which should not exceed
+# what's given in the PostgreSQL section in https://cloud.google.com/sql/docs/quotas#fixed-limits, based on
+# the amount of RAM configured to the SQL instance.  
+#
+# Note the foot note there:
+#
+#    Cloud SQL for PostgreSQL reserves up to six of these connections for internal operations.
+#
+# PostgreSQL reserves a few (by default 3) connections for the superuser. See
+#   https://www.postgresql.org/docs/9.6/runtime-config-connection.html#GUC-SUPERUSER-RESERVED-CONNECTIONS
+#
+# In addition, in the "App Engine Limits" section in https://cloud.google.com/sql/docs/quotas
+# Each App Engine instance running in a standard environment cannot have more than 100 concurrent connections
+# Therefore, make sure this limit is observed as well.
+#
+DATABASE_CONNECTION_POOL_SIZE: 16
+
+# APP_ID: applicationId, a unique id identifying a Parse application on a Parse server.
+# For our purposes, it is arbitrary as long as the front end uses the same applicationId when calling Parse.initialize().
+APP_ID: AHOPEPARSESERVER
+
+# If no MASTER_KEY is configured, then a randomly generated one will be used.  This is recommended.
+# MASTER_KEY: ahope-test-app-master-key-keep-it-secret
+
+# Note: FILE_KEY is only needed if we store files.
+# FILE_KEY: <your-file-key>,
+
+# PARSE_MOUNT_PATH: /parse
+
+# SERVER_URL: https://keep-ahope.appspot.com/parse
+
+# Get the OAuth Client ID here:
+# https://console.cloud.google.com/apis/credentials?project=keep-ahope&orgonly=true&supportedpurview=organizationId
+#
+OAUTH_CLIENT_ID: 224779111920-tausvu4e2d84ldt8pbvhuv4637tk0rd3.apps.googleusercontent.com
+
+# Whether to allow a client to create classes (custom tables).  Default to false, but can be changed to true during development
+# ALLOW_CLIENT_CLASS_CREATION: false
+
+DASHBOARD_SETTINGS:
+  # If a different Parse server is used, then uncomment the following section.
+  # apps:
+  #   - serverUrl: https://an_alternative_parse_server/parse
+  users:
+    - user: ahope-admin
+      pass: $2a$10$/Kd3jh1Re8eZ9rIPqnzmGetipxt9lcGA1c5mkWR3QAiPVRck..DSG
+  useEncryptedPasswords: true

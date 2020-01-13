@@ -1,0 +1,553 @@
+{
+    "results": [
+        {
+            "objectId": "BiRCZ7YBmk",
+            "createdAt": "2018-10-10T03:56:51.036Z",
+            "updatedAt": "2019-02-10T20:20:22.369Z",
+            "ethnicity": "HPI",
+            "genderIdentity": "female",
+            "uid": "aaaa236889aaa__FAKE",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "2018-10-10T03:56:50.757Z"
+            },
+            "hispanic": false,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-02-10T20:20:20.678Z"
+            },
+            "ageOfFirstInjection": 50,
+            "countryOfBirth": "PR",
+            "primaryDrug": "new drug",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "housingStatus": "homeless",
+            "otherDrugsAggregate": [
+                "other",
+                "another,using,commas and spaces",
+                "new drug",
+                "crack",
+                "meth"
+            ],
+            "profileNotes": "Prof notes",
+            "otherDrugs": [
+                "other",
+                "another,using,commas and spaces"
+            ],
+            "contactGivesDataConsent": true
+        },
+        {
+            "objectId": "VgFD7sYxdN",
+            "createdAt": "2019-01-30T14:38:10.684Z",
+            "updatedAt": "2019-01-30T14:38:10.684Z",
+            "ethnicity": "White",
+            "genderIdentity": "ftm",
+            "uid": "BAJA102591DAN",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1991-10-25T04:00:00.000Z"
+            },
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-30T14:37:15.006Z"
+            },
+            "countryOfBirth": "Other",
+            "primaryDrug": "other",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "hasHealthInsurance": true,
+            "housingStatus": "housed",
+            "otherDrugsAggregate": [
+                "other"
+            ],
+            "profileNotes": "this kid is weird af",
+            "otherDrugs": [
+                "other"
+            ],
+            "syringesGivenAggregate": 10,
+            "healthInsurer": "NHP",
+            "zipCode": "02215"
+        },
+        {
+            "objectId": "3YFLCdB7NF",
+            "createdAt": "2019-01-09T13:43:51.190Z",
+            "updatedAt": "2019-01-09T13:43:51.190Z",
+            "ethnicity": "White",
+            "genderIdentity": "female",
+            "uid": "lzrg122391mar",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-09T13:43:32.728Z"
+            },
+            "countryOfBirth": "US",
+            "primaryDrug": "heroin",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "didOdLastYear": true,
+            "hasHealthInsurance": true,
+            "housingStatus": "housed",
+            "otherDrugsAggregate": [
+                "cocaine",
+                "suboxone",
+                "heroin"
+            ],
+            "otherDrugs": [
+                "cocaine",
+                "suboxone"
+            ],
+            "healthInsurer": "BCBS",
+            "zipCode": "02118"
+        },
+        {
+            "objectId": "tsHIw1CnKD",
+            "createdAt": "2019-01-08T17:57:41.104Z",
+            "updatedAt": "2019-01-09T13:28:31.623Z",
+            "genderIdentity": "female",
+            "uid": "srmc060585mar",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-09T13:28:24.170Z"
+            },
+            "ageOfFirstInjection": 16,
+            "countryOfBirth": "Other",
+            "primaryDrug": "heroin",
+            "hivStatus": "negative",
+            "hepCStatus": "positive",
+            "isInCareForHepC": true,
+            "didOdLastYear": true,
+            "hasHealthInsurance": true,
+            "housingStatus": "homeless",
+            "otherDrugsAggregate": [
+                "crack",
+                "meth",
+                "heroin"
+            ],
+            "profileNotes": "ALERT",
+            "otherDrugs": [
+                "crack",
+                "meth"
+            ],
+            "syringesGivenAggregate": 20,
+            "syringesTakenAggregate": 10,
+            "healthInsurer": "MH",
+            "zipCode": "02118"
+        },
+        {
+            "objectId": "patleOdXtU",
+            "createdAt": "2019-01-08T21:11:05.904Z",
+            "updatedAt": "2019-01-08T21:11:05.904Z",
+            "uid": "bphc101010mom",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T21:10:41.871Z"
+            },
+            "primaryDrug": "heroin",
+            "didOdLastYear": true,
+            "hasHealthInsurance": true,
+            "otherDrugsAggregate": [
+                "heroin"
+            ],
+            "otherDrugs": [
+                null
+            ],
+            "syringesGivenAggregate": 20,
+            "syringesTakenAggregate": 10,
+            "healthInsurer": "TF"
+        },
+        {
+            "objectId": "qOaAyzmqYc",
+            "createdAt": "2019-01-08T18:51:06.817Z",
+            "updatedAt": "2019-01-08T19:22:48.115Z",
+            "ethnicity": "White",
+            "genderIdentity": "female",
+            "uid": "CASH112991ELI",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1991-11-29T05:00:00.000Z"
+            },
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T19:22:24.469Z"
+            },
+            "ageOfFirstInjection": 18,
+            "countryOfBirth": "US",
+            "primaryDrug": "heroin",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "hasHealthInsurance": true,
+            "housingStatus": "housed",
+            "otherDrugsAggregate": [
+                "benzos",
+                "heroin"
+            ],
+            "profileNotes": "ATTENDED HCV APPT",
+            "otherDrugs": [
+                "benzos"
+            ],
+            "syringesGivenAggregate": 60,
+            "syringesTakenAggregate": 50,
+            "healthInsurer": "other",
+            "zipCode": "02130"
+        },
+        {
+            "objectId": "pNQtEtOPCe",
+            "createdAt": "2019-01-08T18:40:15.212Z",
+            "updatedAt": "2019-01-08T18:40:15.212Z",
+            "ethnicity": "Other",
+            "genderIdentity": "male",
+            "uid": "bphc101010six",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T18:40:10.368Z"
+            },
+            "ageOfFirstInjection": 16,
+            "countryOfBirth": "US",
+            "primaryDrug": "other",
+            "hivStatus": "neverTested",
+            "hepCStatus": "negative",
+            "housingStatus": "homeless",
+            "otherDrugsAggregate": [
+                "methadone",
+                "other"
+            ],
+            "profileNotes": "testing profile notes by bphc",
+            "otherDrugs": [
+                "methadone"
+            ],
+            "syringesGivenAggregate": 10,
+            "syringesTakenAggregate": 10,
+            "zipCode": "02118"
+        },
+        {
+            "objectId": "mEYcjq1eih",
+            "createdAt": "2018-10-10T03:56:40.537Z",
+            "updatedAt": "2019-01-08T17:45:33.146Z",
+            "ethnicity": "BAA",
+            "genderIdentity": "female",
+            "uid": "aaaa218004aaa",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1987-01-09T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T17:45:06.986Z"
+            },
+            "ageOfFirstInjection": 24,
+            "countryOfBirth": "PR",
+            "primaryDrug": "heroin",
+            "hivStatus": "negative",
+            "hepCStatus": "neverTested",
+            "isEnrolled": false,
+            "isInCareForHepC": false,
+            "didOdLastYear": true,
+            "hasHealthInsurance": true,
+            "isInCareForHiv": false,
+            "housingStatus": "housed",
+            "otherDrugsAggregate": [
+                "heroin",
+                "meth",
+                "benzos",
+                "crack"
+            ],
+            "profileNotes": "Profile Notes",
+            "otherDrugs": [
+                "heroin",
+                "meth",
+                "benzos",
+                "crack"
+            ],
+            "syringesGivenAggregate": 50,
+            "syringesTakenAggregate": 50,
+            "healthInsurer": "BCBS",
+            "zipCode": "02118"
+        },
+        {
+            "objectId": "Df9GPcIduV",
+            "createdAt": "2019-01-08T14:03:22.247Z",
+            "updatedAt": "2019-01-08T14:03:22.247Z",
+            "uid": "abcd123456ggg",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T14:03:15.682Z"
+            },
+            "otherDrugsAggregate": [],
+            "otherDrugs": [
+                null
+            ]
+        },
+        {
+            "objectId": "kqralpNyEy",
+            "createdAt": "2019-01-08T14:02:34.227Z",
+            "updatedAt": "2019-01-08T14:02:34.227Z",
+            "ethnicity": "White",
+            "genderIdentity": "male",
+            "uid": "abcd123456fff",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T14:02:00.832Z"
+            },
+            "otherDrugsAggregate": [],
+            "otherDrugs": [
+                null
+            ],
+            "zipCode": "02118"
+        },
+        {
+            "objectId": "tRTv4Xrd9n",
+            "createdAt": "2019-01-08T13:56:51.688Z",
+            "updatedAt": "2019-01-08T13:56:51.688Z",
+            "ethnicity": "White",
+            "genderIdentity": "male",
+            "uid": "abcd123456eee",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T13:56:49.797Z"
+            },
+            "ageOfFirstInjection": 51,
+            "countryOfBirth": "US",
+            "primaryDrug": "cocaine",
+            "hivStatus": "neverTested",
+            "hepCStatus": "neverTested",
+            "didOdLastYear": true,
+            "housingStatus": "homeless",
+            "otherDrugsAggregate": [
+                "meth",
+                "cocaine",
+                "benzos",
+                "crack"
+            ],
+            "profileNotes": "Profile Notes",
+            "otherDrugs": [
+                "meth",
+                "cocaine",
+                "benzos",
+                "crack"
+            ],
+            "syringesGivenAggregate": 20,
+            "syringesTakenAggregate": 20,
+            "zipCode": "02118"
+        },
+        {
+            "objectId": "Ih9LkP3aa7",
+            "createdAt": "2019-01-08T13:53:06.502Z",
+            "updatedAt": "2019-01-08T13:53:06.502Z",
+            "ethnicity": "White",
+            "genderIdentity": "male",
+            "uid": "abcd123456ddd",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1979-01-11T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T13:53:01.003Z"
+            }
+        },
+        {
+            "objectId": "sBXZdZTA6c",
+            "createdAt": "2018-10-10T03:57:40.036Z",
+            "updatedAt": "2019-01-08T03:12:51.845Z",
+            "ethnicity": "AI",
+            "genderIdentity": "male",
+            "uid": "aaaa317150aaa",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "2000-01-01T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T03:12:48.222Z"
+            },
+            "ageOfFirstInjection": 1,
+            "countryOfBirth": "US",
+            "primaryDrug": "meth",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "isEnrolled": true,
+            "isInCareForHepC": true,
+            "didOdLastYear": true,
+            "hasHealthInsurance": true,
+            "isInCareForHiv": true,
+            "housingStatus": "homeless",
+            "otherDrugsAggregate": [
+                "other",
+                "benzos",
+                "meth",
+                "heroin",
+                "crack",
+                "cocaine",
+                "suboxone"
+            ],
+            "profileNotes": "prof notes 2",
+            "otherDrugs": [
+                "other",
+                "benzos"
+            ],
+            "syringesGivenAggregate": 90,
+            "syringesTakenAggregate": 50,
+            "zipCode": "02118a"
+        },
+        {
+            "objectId": "BXLXtAUf2U",
+            "createdAt": "2019-01-08T03:02:36.170Z",
+            "updatedAt": "2019-01-08T03:02:36.170Z",
+            "uid": "ffff111111fff",
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T03:02:33.752Z"
+            }
+        },
+        {
+            "objectId": "m3v5sKEBeL",
+            "createdAt": "2019-01-08T02:52:39.444Z",
+            "updatedAt": "2019-01-08T02:52:39.444Z",
+            "ethnicity": "White",
+            "genderIdentity": "male",
+            "uid": "mmmm111111mma",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T02:52:36.181Z"
+            },
+            "hivStatus": "neverTested",
+            "hepCStatus": "neverTested",
+            "didOdLastYear": true,
+            "housingStatus": "homeless",
+            "otherDrugsAggregate": [],
+            "otherDrugs": [
+                null
+            ],
+            "zipCode": "02118"
+        },
+        {
+            "objectId": "bAFZg2Pnr3",
+            "createdAt": "2019-01-08T02:52:10.600Z",
+            "updatedAt": "2019-01-08T02:52:10.600Z",
+            "ethnicity": "White",
+            "genderIdentity": "male",
+            "uid": "mmmm111111mmv",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1980-01-01T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T02:52:07.540Z"
+            },
+            "hivStatus": "neverTested",
+            "hepCStatus": "neverTested",
+            "didOdLastYear": true,
+            "housingStatus": "homeless",
+            "otherDrugsAggregate": [],
+            "otherDrugs": [
+                null
+            ],
+            "syringesGivenAggregate": 10,
+            "syringesTakenAggregate": 20,
+            "zipCode": "02118"
+        },
+        {
+            "objectId": "SmN8atDCX7",
+            "createdAt": "2019-01-08T02:51:42.353Z",
+            "updatedAt": "2019-01-08T02:51:42.353Z",
+            "uid": "mmmm111111mmm",
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T02:51:20.101Z"
+            }
+        },
+        {
+            "objectId": "BUvX22koIr",
+            "createdAt": "2019-01-08T02:42:56.684Z",
+            "updatedAt": "2019-01-08T02:42:56.684Z",
+            "ethnicity": "White",
+            "genderIdentity": "male",
+            "uid": "abcd123456bbb",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1982-01-23T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T02:42:53.672Z"
+            }
+        },
+        {
+            "objectId": "W8dSvoyZSX",
+            "createdAt": "2019-01-08T02:41:15.932Z",
+            "updatedAt": "2019-01-08T02:41:15.932Z",
+            "ethnicity": "White",
+            "genderIdentity": "male",
+            "uid": "abcd123456aaa",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1979-01-12T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T02:41:08.977Z"
+            },
+            "ageOfFirstInjection": 35
+        },
+        {
+            "objectId": "hZmh3YWdLW",
+            "createdAt": "2019-01-08T02:40:47.374Z",
+            "updatedAt": "2019-01-08T02:40:47.374Z",
+            "ethnicity": "White",
+            "genderIdentity": "male",
+            "uid": "abcd123456abc",
+            "dateOfBirth": {
+                "__type": "Date",
+                "iso": "1981-01-23T05:00:00.000Z"
+            },
+            "hispanic": true,
+            "dateOfLastVisit": {
+                "__type": "Date",
+                "iso": "2019-01-08T02:40:41.694Z"
+            },
+            "ageOfFirstInjection": 35
+        }
+    ]
+}

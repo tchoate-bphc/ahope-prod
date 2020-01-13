@@ -1,0 +1,6 @@
+{
+    "extends": "react-app",
+    "rules": {
+        "brace-style": ["error", "1tbs"]
+    }
+}

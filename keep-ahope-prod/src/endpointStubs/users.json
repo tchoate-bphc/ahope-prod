@@ -1,0 +1,27 @@
+{
+    "objectId": "BijibSwayr",
+    "createdAt": "2018-10-22T11:16:50.737Z",
+    "updatedAt": "2018-11-10T02:26:25.666Z",
+    "username": "usernamehash",
+    "email": "first.last@gmail.com",
+    "authData": {
+        "google": {
+            "id": "123456789",
+            "id_token": "somelongtoken",
+            "access_token": "somelongaccesstoken"
+        }
+    },
+    "givenName": "E",
+    "lastName": "Last",
+    "fullName": "E Last",
+    "ACL": {
+        "*": {
+            "read": true
+        },
+        "BijibSwayr": {
+            "read": true,
+            "write": true
+        }
+    },
+    "sessionToken": "r:sessiontoken"
+}

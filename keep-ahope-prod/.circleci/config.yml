@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  release_ahope_ui:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run: npx semantic-release
+workflows:
+  version: 2
+  ship_ahope_ui:
+    jobs:
+      - release_ahope_ui:
+          filters:
+            branches: 
+              only: 
+                - master
+                - develop

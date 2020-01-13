@@ -1,0 +1,23 @@
+footer {
+
+    position: fixed;
+    width: calc(100% - 2em);
+    align-content: center;
+
+    margin-top:10px;
+    border-top:1px solid #ccc;
+    background:#eee;
+    font-size:80%;
+    bottom:0;
+
+    padding: 1em;
+    color: #777;
+
+    height:1em;
+    min-height:1em;
+    max-height:1em;
+
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+
+}

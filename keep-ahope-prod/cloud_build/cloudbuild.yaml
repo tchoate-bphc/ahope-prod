@@ -1,0 +1,23 @@
+# As of now the front end code is served with the same service as the back end, and as a result
+# is built as a part of backend build process.  When front end code changes, we need to trigger
+# the back-end build process in order to build front end code.
+# (This will change when we move the front end into a separate service.)
+#
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  dir: 'cloud_build'
+  entrypoint: 'bash'
+  args: ['-c', './build.sh']
+  env:
+  - 'PROJECT_ID=$PROJECT_ID'
+- name: 'gcr.io/cloud-builders/npm'
+  dir: 'cloud_build'
+  entrypoint: 'node'
+  args: ['parseTriggers.js']
+- name: 'gcr.io/cloud-builders/gcloud'
+  dir: 'cloud_build'
+  entrypoint: 'bash'
+  args: ['-c', './build.sh step2']
+  env:
+  - 'PROJECT_ID=$PROJECT_ID'
+timeout: '1600s'

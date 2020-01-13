@@ -1,0 +1,287 @@
+{
+    "results": [
+        {
+            "objectId": "ajKNVvruJg",
+            "createdAt": "2018-12-09T15:13:01.064Z",
+            "updatedAt": "2018-12-09T15:13:01.064Z",
+            "date": {
+                "__type": "Date",
+                "iso": "2018-12-09T15:12:33.826Z"
+            },
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "referrals": [
+                "Mental health",
+                "Other"
+            ],
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        },
+        {
+            "objectId": "sMT8eihatJ",
+            "createdAt": "2018-12-09T15:19:35.602Z",
+            "updatedAt": "2018-12-09T15:19:35.602Z",
+            "ageOfFirstInjection": 50,
+            "numberOfOthersHelping": 62,
+            "syringesGiven": 20,
+            "syringesTaken": 20,
+            "countryOfBirth": "PR",
+            "otherDrugs": [
+                "meth",
+                "suboxone"
+            ],
+            "date": {
+                "__type": "Date",
+                "iso": "2018-12-09T15:18:39.659Z"
+            },
+            "newContactDate": {
+                "__type": "Date",
+                "iso": "2018-12-09T15:18:39.659Z"
+            },
+            "ethnicity": "HPI",
+            "primaryDrug": "other",
+            "genderIdentity": "female",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "housingStatus": "unstable",
+            "isOutreach": true,
+            "narcanWasOffered": true,
+            "narcanWasTaken": true,
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "referrals": [
+                "Medical attention",
+                "Mental health"
+            ],
+            "eventNotes": "Evt notes",
+            "profileNotes": "Prof notes",
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        },
+        {
+            "objectId": "UDnax2kDPy",
+            "createdAt": "2018-12-09T15:21:25.786Z",
+            "updatedAt": "2018-12-09T15:21:25.786Z",
+            "otherDrugs": [
+                "crack",
+                "meth"
+            ],
+            "date": {
+                "__type": "Date",
+                "iso": "2018-12-09T15:21:11.303Z"
+            },
+            "newContactDate": {
+                "__type": "Date",
+                "iso": "2018-12-09T15:21:11.303Z"
+            },
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        },
+        {
+            "objectId": "KnXCLhddVr",
+            "createdAt": "2019-01-13T22:24:13.470Z",
+            "updatedAt": "2019-01-13T22:24:13.470Z",
+            "otherDrugs": [
+                "other",
+                "another,using,commas and spaces"
+            ],
+            "date": {
+                "__type": "Date",
+                "iso": "2019-01-13T22:24:08.343Z"
+            },
+            "primaryDrug": "other",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "housingStatus": "unstable",
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "referrals": [
+                null
+            ],
+            "profileNotes": "Prof notes",
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        },
+        {
+            "objectId": "2Zj6IOxn3N",
+            "createdAt": "2019-01-13T22:39:16.647Z",
+            "updatedAt": "2019-01-13T22:39:16.647Z",
+            "otherDrugs": [
+                "other",
+                "another,using,commas and spaces"
+            ],
+            "date": {
+                "__type": "Date",
+                "iso": "2019-01-13T22:39:10.647Z"
+            },
+            "primaryDrug": "new drug",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "housingStatus": "unstable",
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "referrals": [
+                "other",
+                "asdf"
+            ],
+            "profileNotes": "Prof notes",
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        },
+        {
+            "objectId": "NZdx5H7gyG",
+            "createdAt": "2019-02-10T20:18:44.351Z",
+            "updatedAt": "2019-02-10T20:18:44.351Z",
+            "otherDrugs": [
+                "other",
+                "another,using,commas and spaces"
+            ],
+            "date": {
+                "__type": "Date",
+                "iso": "2019-02-10T20:18:41.836Z"
+            },
+            "primaryDrug": "new drug",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "housingStatus": "homeless",
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "referrals": [
+                null
+            ],
+            "eventNotes": "event notes",
+            "profileNotes": "Prof notes",
+            "contactGivesDataConsent": true,
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        },
+        {
+            "objectId": "LVNGcwV7bW",
+            "createdAt": "2019-02-10T20:19:45.280Z",
+            "updatedAt": "2019-02-10T20:19:45.280Z",
+            "numberOfOthersHelping": 6,
+            "otherDrugs": [
+                "other",
+                "another,using,commas and spaces"
+            ],
+            "date": {
+                "__type": "Date",
+                "iso": "2019-02-10T20:19:32.300Z"
+            },
+            "primaryDrug": "new drug",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "housingStatus": "homeless",
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "referrals": [
+                null
+            ],
+            "profileNotes": "Prof notes",
+            "contactGivesDataConsent": true,
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        },
+        {
+            "objectId": "KdYxdan1dh",
+            "createdAt": "2019-02-10T20:20:00.747Z",
+            "updatedAt": "2019-02-10T20:20:00.747Z",
+            "otherDrugs": [
+                "other",
+                "another,using,commas and spaces"
+            ],
+            "date": {
+                "__type": "Date",
+                "iso": "2019-02-10T20:19:57.804Z"
+            },
+            "primaryDrug": "new drug",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "housingStatus": "homeless",
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "referrals": [
+                null
+            ],
+            "eventNotes": "adsf",
+            "profileNotes": "Prof notes",
+            "contactGivesDataConsent": true,
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        },
+        {
+            "objectId": "eQSC7MhV30",
+            "createdAt": "2019-02-10T20:20:22.657Z",
+            "updatedAt": "2019-02-10T20:20:22.657Z",
+            "otherDrugs": [
+                "other",
+                "another,using,commas and spaces"
+            ],
+            "date": {
+                "__type": "Date",
+                "iso": "2019-02-10T20:20:20.678Z"
+            },
+            "primaryDrug": "new drug",
+            "hivStatus": "negative",
+            "hepCStatus": "negative",
+            "housingStatus": "homeless",
+            "contactUidPointer": {
+                "objectId": "BiRCZ7YBmk",
+                "__type": "Pointer",
+                "className": "contacts"
+            },
+            "referrals": [
+                null
+            ],
+            "eventNotes": "asdf",
+            "profileNotes": "Prof notes",
+            "contactGivesDataConsent": true,
+            "uid": {
+                "__type": "Relation",
+                "className": "contacts"
+            }
+        }
+    ]
+}
