@@ -13,7 +13,7 @@
     "axios": "^0.19.0",
     "express": "4.16.2",
     "js-yaml": "^3.13.1",
-    "nconf": "0.10.0",
+    "nconf": "0.11.4",
     "parse": "^2.1.0",
     "parse-dashboard": "^1.2.0",
     "parse-server": "^3.4.1",
